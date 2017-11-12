@@ -1,0 +1,71 @@
+body {
+	margin:0;
+	background-color:rgb(255,250,230);
+}
+
+.spectrum {
+	position:fixed;
+	left:0;right:0;top:0;bottom:0;
+	width:100%;height:100%;
+	background-image:linear-gradient(rgb(250,230,210),rgb(255,250,230));
+}
+
+.space {
+	position:relative;
+	margin:0 auto;
+	width:320px;height:100%;
+}
+
+.start { 
+	position:relative;
+	margin:32px auto 0 auto;
+	width:160px;height:64px;
+}
+.start img{ 
+	width:100%;
+	height:100%;
+}
+
+.scene { 
+	position:relative;
+	margin:0 auto;
+}
+.scene_01{
+	width:320px;height:512px;
+	margin:16px 0;
+}
+.scene_02{
+	width:320px;height:320px;
+	margin:128px 0;
+}
+.scene img{
+	width:100%;height:100%;
+}
+
+.static{
+	position:fixed;
+	bottom:0;
+	width:100%;height:64px;
+}
+
+.store{
+	position:absolute;
+	width:50%;height:100%;
+	background-color:rgb(51,51,51);
+	color:rgb(255,250,230);
+	font-size:16px;
+	font-family:"Apple SD Gothic Neo",NanumBarunGothic,"ë‚˜ëˆ”ë°”ë¥¸ê³ ë”•",Malgun Gothic,"ë§‘ì€ ê³ ë”•",sans-serif;
+	font-weight:300;
+	text-align:center;
+	line-height:64px;
+}
+.store_01{left :0;top:0;}
+.store_02{right:0;top:0;}
+
+.slash{
+	position:fixed;
+	left:50%;bottom:24px;
+	margin-left:-0.5px;
+	width:1px;height:16px;
+	background-color:rgb(255,250,230);
+}
